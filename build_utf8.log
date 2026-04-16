@@ -1,0 +1,133 @@
+﻿
+> nestcraft-nextjs@1.0.0 build D:\projects\allied-surplus
+> next build
+
+   Γû▓ Next.js 15.5.14
+   - Environments: .env
+
+   Creating an optimized production build ...
+ Γ£ô Compiled successfully in 25.4s
+   Linting and checking validity of types ...
+   Collecting page data ...
+node.exe : [Error: querySrv 
+ECONNREFUSED _mongodb._tcp.ka
+lpcluster.mr8bacs.mongodb.net
+] {
+At C:\Users\manis\AppData\Roa
+ming\npm\pnpm.ps1:24 char:5
++     & "node$exe"  "$basedir
+/node_modules/pnpm/bin/pnpm.c
+js" $args
++     ~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: ([Er    
+ror: querySr....mongod    
+b.net] {:String) [], R    
+emoteException
+    + FullyQualifiedErrorI   
+ d : NativeCommandError
+ 
+  errno: undefined,
+  code: 'ECONNREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.ka
+lpcluster.mr8bacs.mongodb.net
+'
+}
+   Generating static pages (0/55) ...
+[Error: querySrv 
+ECONNREFUSED _mongodb._tcp.ka
+lpcluster.mr8bacs.mongodb.net
+] {
+  errno: undefined,
+  code: 'ECONNREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.ka
+lpcluster.mr8bacs.mongodb.net
+'
+}
+   Generating static pages (13/55) 
+ Γ¿» useSearchParams() 
+should be wrapped in a 
+suspense boundary at page 
+"/shop". Read more: https://n
+extjs.org/docs/messages/missi
+ng-suspense-with-csr-bailout
+    at g (D:\projects\allied-
+surplus\.next\server\chunks\6
+625.js:9:168086)
+    at m (D:\projects\allied-
+surplus\.next\server\chunks\6
+625.js:9:169701)
+    at w (D:\projects\allied-
+surplus\.next\server\chunks\8
+70.js:37:4216)
+    at n3 (D:\projects\allied
+-surplus\node_modules\.pnpm\n
+ext@15.5.14_@babel+core@7.29.
+0_react-dom@19.2.4_react@19.2
+.4__react@19.2.4\node_modules
+\next\dist\compiled\next-serv
+er\app-page.runtime.prod.js:2
+:82831)
+    at n6 (D:\projects\allied
+-surplus\node_modules\.pnpm\n
+ext@15.5.14_@babel+core@7.29.
+0_react-dom@19.2.4_react@19.2
+.4__react@19.2.4\node_modules
+\next\dist\compiled\next-serv
+er\app-page.runtime.prod.js:2
+:84601)
+    at n6 (D:\projects\allied
+-surplus\node_modules\.pnpm\n
+ext@15.5.14_@babel+core@7.29.
+0_react-dom@19.2.4_react@19.2
+.4__react@19.2.4\node_modules
+\next\dist\compiled\next-serv
+er\app-page.runtime.prod.js:2
+:101560)
+    at n5 (D:\projects\allied
+-surplus\node_modules\.pnpm\n
+ext@15.5.14_@babel+core@7.29.
+0_react-dom@19.2.4_react@19.2
+.4__react@19.2.4\node_modules
+\next\dist\compiled\next-serv
+er\app-page.runtime.prod.js:2
+:104801)
+    at n7 (D:\projects\allied
+-surplus\node_modules\.pnpm\n
+ext@15.5.14_@babel+core@7.29.
+0_react-dom@19.2.4_react@19.2
+.4__react@19.2.4\node_modules
+\next\dist\compiled\next-serv
+er\app-page.runtime.prod.js:2
+:102219)
+    at ia (D:\projects\allied
+-surplus\node_modules\.pnpm\n
+ext@15.5.14_@babel+core@7.29.
+0_react-dom@19.2.4_react@19.2
+.4__react@19.2.4\node_modules
+\next\dist\compiled\next-serv
+er\app-page.runtime.prod.js:2
+:108211)
+    at ie (D:\projects\allied
+-surplus\node_modules\.pnpm\n
+ext@15.5.14_@babel+core@7.29.
+0_react-dom@19.2.4_react@19.2
+.4__react@19.2.4\node_modules
+\next\dist\compiled\next-serv
+er\app-page.runtime.prod.js:2
+:106833)
+Error occurred prerendering 
+page "/shop". Read more: http
+s://nextjs.org/docs/messages/
+prerender-error
+Export encountered an error 
+on /shop/page: /shop, 
+exiting the build.
+ Γ¿» Next.js build worker 
+exited with code: 1 and 
+signal: null
+ΓÇëELIFECYCLEΓÇë Command failed with exit code 1.
